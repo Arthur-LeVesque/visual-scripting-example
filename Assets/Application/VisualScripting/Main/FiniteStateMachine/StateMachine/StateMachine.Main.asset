@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: StateMachine.Main
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":426.1733,"y":235.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"isStart":false,"position":{"x":-490.0,"y":-129.0},"width":170.0,"guid":"8443d324-7abd-40b4-80bf-b5ec126d3dfb","$version":"A","$type":"Unity.VisualScripting.FlowState","$id":"3"},{"nest":{"source":"Macro","macro":1,"embed":null},"isStart":false,"position":{"x":-81.0,"y":-123.0},"width":170.0,"guid":"be4e55d3-7b1a-44bd-96b7-828178552bb3","$version":"A","$type":"Unity.VisualScripting.FlowState","$id":"5"},{"nest":{"source":"Macro","macro":2,"embed":null},"isStart":false,"position":{"x":374.0,"y":-100.0},"width":170.0,"guid":"a1362271-de94-433c-af48-9a1f1cf105df","$type":"Unity.VisualScripting.SuperState","$id":"7"},{"nest":{"source":"Macro","macro":3,"embed":null},"isStart":true,"position":{"x":-932.0,"y":-118.0},"width":170.0,"guid":"9ab74d6d-d42f-4e78-9a14-708499a55973","$version":"A","$type":"Unity.VisualScripting.FlowState","$id":"9"},{"nest":{"source":"Macro","macro":4,"embed":null},"source":{"$ref":"3"},"destination":{"$ref":"5"},"guid":"c7655c52-0ae1-4469-bd96-1bc5441d59a0","$version":"A","$type":"Unity.VisualScripting.FlowStateTransition"},{"nest":{"source":"Macro","macro":5,"embed":null},"source":{"$ref":"5"},"destination":{"$ref":"7"},"guid":"54f12c24-2bd0-436e-bcdb-0ddd80e5a813","$version":"A","$type":"Unity.VisualScripting.FlowStateTransition"},{"nest":{"source":"Macro","macro":6,"embed":null},"source":{"$ref":"7"},"destination":{"$ref":"5"},"guid":"59a0b990-73d0-44ed-854d-ab806ca33741","$version":"A","$type":"Unity.VisualScripting.FlowStateTransition"},{"nest":{"source":"Macro","macro":7,"embed":null},"source":{"$ref":"9"},"destination":{"$ref":"3"},"guid":"3bc2bed8-e077-4014-a0c7-24248957e4a1","$version":"A","$type":"Unity.VisualScripting.FlowStateTransition"},{"nest":{"source":"Macro","macro":8,"embed":null},"source":{"$ref":"5"},"destination":{"$ref":"3"},"guid":"963f3e6b-7fff-44f8-be42-630356b7fdc0","$version":"A","$type":"Unity.VisualScripting.FlowStateTransition"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e37ae00a63e17407c93c41a0e745d0a6, type: 2}
+    - {fileID: 11400000, guid: 731f63167cc9648049efa19f234e7a83, type: 2}
+    - {fileID: 11400000, guid: 13d4306ea28b741ed99b383144ddb8bd, type: 2}
+    - {fileID: 11400000, guid: 5efac90b7466c439d9b93b899b0bd2db, type: 2}
+    - {fileID: 11400000, guid: b9d18a49bab1d4a719268cbccb09dd63, type: 2}
+    - {fileID: 11400000, guid: 1ef29b4e842fb4215b29ab14580adcf2, type: 2}
+    - {fileID: 11400000, guid: b9d18a49bab1d4a719268cbccb09dd63, type: 2}
+    - {fileID: 11400000, guid: 39e128ce5bc134d49968b31fe61b19bf, type: 2}
+    - {fileID: 11400000, guid: 39e128ce5bc134d49968b31fe61b19bf, type: 2}

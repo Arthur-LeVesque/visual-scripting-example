@@ -1,18 +1,18 @@
 {
   "dependencies": {
     "com.onchainstudios.filetemplates": {
-      "version": "https://github.com/onchainstudios/onchainstudios-unity-extensions.git?path=/Packages/com.onchainstudios.filetemplates#v0.7.0-preview.13",
+      "version": "https://github.com/onchainstudios/onchainstudios-unity-extensions.git?path=/Packages/com.onchainstudios.filetemplates#v0.7.0-preview.15",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "11ff10f964df4802fe3b1cc9055e8346fd86f436"
+      "hash": "7f481ea46c67b914b450a7839f889113d3a7952c"
     },
     "com.onchainstudios.onchainuitoolkit": {
-      "version": "https://github.com/onchainstudios/onchainstudios-unity-extensions.git?path=/Packages/com.onchainstudios.uitoolkitextensions#v0.7.0-preview.13",
+      "version": "https://github.com/onchainstudios/onchainstudios-unity-extensions.git?path=/Packages/com.onchainstudios.uitoolkitextensions#v0.7.0-preview.15",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "11ff10f964df4802fe3b1cc9055e8346fd86f436"
+      "hash": "7f481ea46c67b914b450a7839f889113d3a7952c"
     },
     "com.unity.2d.animation": {
       "version": "9.0.3",

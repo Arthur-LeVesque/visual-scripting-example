@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Configuration.Main.TitleScreen
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"UnityEngine.UIElements.VisualElement","key":"Root","label":null,"summary":null,"hideLabel":false},{"_type":"System.String","key":"StartButtonName","label":null,"summary":null,"hideLabel":false},{"_type":"System.String","key":"QuitButtonName","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":-260.0,"y":102.458},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":5.0,"y":-239.0},"guid":"f3e1fe3a-996a-4a52-977f-78db5ae8cc4b","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"12"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-784.0,"y":-278.0},"guid":"cc9fecd3-434a-4093-8ec8-60cfd8982222","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"14"},{"member":{"name":"rootVisualElement","parameterTypes":null,"targetType":"UnityEngine.UIElements.UIDocument","targetTypeName":"UnityEngine.UIElements.UIDocument","$version":"A"},"defaultValues":{"target":null},"position":{"x":-370.0,"y":-276.0},"guid":"1ecdbe11-cd43-45cc-a88e-6a9a4bc382e8","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"17"},{"type":"System.String","value":{"$content":"StartButton","$type":"System.String"},"defaultValues":{},"position":{"x":-309.0,"y":-149.0},"guid":"ae174ee4-c9df-4e5a-9d14-69f5b07c12a4","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"20"},{"type":"System.String","value":{"$content":"QuitButton","$type":"System.String"},"defaultValues":{},"position":{"x":-309.0,"y":-36.0},"guid":"b4069e6b-3813-4f7c-b90e-a277c0a0b0e5","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"22"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Value","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"4a10ec40-f656-47c8-9699-472d1a353cb6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"Root","guid":"a43da3aa-4e73-4684-b1c6-a5b147895088","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"StartButtonName","guid":"1e4ef5ca-4938-449a-b3b2-dc27aa657d7f","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"QuitButtonName","guid":"1aba148c-84df-491e-a899-985cdb8b4f75","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 862f29e3e4b304f52a40dbc8f21a5c1c, type: 2}

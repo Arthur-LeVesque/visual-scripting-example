@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Transition.Trigger.Main.Level.Play
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-222.254,"y":-14.2493},"zoom":1.0,"elements":[{"argumentCount":0,"defaultValues":{"name":{"$content":"","$type":"System.String"},"target":null},"position":{"x":-117.0,"y":-210.0},"guid":"d82f9cd9-0344-4ac4-90bf-2a09886c87dc","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"10"},{"defaultValues":{},"position":{"x":-732.0,"y":-190.0},"guid":"ab5ddc62-7ac7-46cb-ad86-67556e022012","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-500.0,"y":-39.0},"guid":"1510efbb-90e9-4c19-8cd6-5dade107b79d","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Enter","destinationUnit":{"$ref":"10"},"destinationKey":"enter","guid":"b3e101b5-0eb9-47c2-b8bf-56782de4b9d4","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Value","destinationUnit":{"$ref":"10"},"destinationKey":"name","guid":"955cb017-441c-4aea-b9d6-3f16b98df451","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e57f7ace49efd469a93b30dd4022c678, type: 2}
