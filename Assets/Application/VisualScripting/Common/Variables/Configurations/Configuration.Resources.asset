@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Configuration.Resources
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.String","key":"LevelsPath","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":243.0,"y":191.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":48.0,"y":-136.0},"guid":"f1dcece3-6bf5-428b-8540-1ee6282db573","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"10"},{"type":"System.String","value":{"$content":"Prefabs/Levels/","$type":"System.String"},"defaultValues":{},"position":{"x":-330.0,"y":-137.0},"guid":"825a39a5-804c-4b88-8a03-29578054ab69","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"12"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"10"},"destinationKey":"LevelsPath","guid":"f7a56386-bf76-435b-9d3a-fafb13f600c1","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

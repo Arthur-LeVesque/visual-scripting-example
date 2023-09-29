@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Object.Get.Level.PlayTime
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"Level","label":null,"summary":null,"hideLabel":true}],"valueOutputDefinitions":[{"_type":"System.Single","key":"Value","label":null,"summary":null,"hideLabel":true}],"title":null,"summary":null,"pan":{"x":-63.0,"y":299.0},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"","$type":"System.String"},"object":null},"position":{"x":-179.0,"y":-15.0},"guid":"cc6155d7-1f81-450d-a016-e446a58152bb","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"defaultValues":{},"position":{"x":92.0,"y":-7.0},"guid":"431ab470-9729-487e-878e-8323224085cf","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"13"},{"defaultValues":{},"position":{"x":-651.0,"y":7.0},"guid":"979bb16f-15d4-4325-a2d8-f167b7d366bb","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"15"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-533.0,"y":-80.0},"guid":"42343b47-89f3-401b-b9c5-8dd24294e2f7","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"17"},{"sourceUnit":{"$ref":"17"},"sourceKey":"Value","destinationUnit":{"$ref":"11"},"destinationKey":"name","guid":"ae7117ec-027f-4da0-b53d-702b2a2c8cd1","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"Value","guid":"7296453e-4464-471d-8316-d792e3a6d7e3","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"Level","destinationUnit":{"$ref":"11"},"destinationKey":"object","guid":"6c5e93f9-63dc-47ff-89ea-025d3a06dee7","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 28a13c5dbc2884c5a9777ff1cab098e6, type: 2}
