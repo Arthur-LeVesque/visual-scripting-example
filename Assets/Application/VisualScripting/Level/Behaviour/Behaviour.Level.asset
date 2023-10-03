@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Behaviour.Level
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-26.36579,"y":38.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":360.0,"y":224.0},"guid":"bba4799a-44dc-4bc2-b72b-0c69e4224679","$version":"A","$type":"Unity.VisualScripting.This","$id":"9"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":542.0,"y":-148.0},"guid":"6ca05696-d465-483c-970e-980f39f48c21","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"11"},{"coroutine":false,"defaultValues":{},"position":{"x":-952.0,"y":-150.0},"guid":"b1b0a397-08cd-4fb7-b3a7-5a4ca379ef8d","$version":"A","$type":"Unity.VisualScripting.FixedUpdate","$id":"14"},{"member":{"name":"down","parameterTypes":null,"targetType":"UnityEngine.Vector2","targetTypeName":"UnityEngine.Vector2","$version":"A"},"defaultValues":{},"position":{"x":328.0,"y":24.0},"guid":"20b95613-a7f1-45ec-acc4-f74b5b172722","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"16"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":231.0,"y":124.0},"guid":"b71d848d-d774-43d4-9442-bbe93ac4ad4f","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"19"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"Enter","guid":"86edbd38-59b5-46e5-a10d-5a85022a4d2a","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"self","destinationUnit":{"$ref":"11"},"destinationKey":"RigidBody2D","guid":"6140bcb3-0aa3-4982-92ad-ff8b49bdd635","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"Direction","guid":"641f1ba6-40e9-4cfb-b70e-bf8834563a09","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"Value","destinationUnit":{"$ref":"11"},"destinationKey":"Speed","guid":"23b7774c-53de-456f-bc5f-6c3f8c4aca3f","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-276.0,"yMin":-240.0,"xMax":952.0,"yMax":373.0},"label":"Move
+      the bullet in the direction it is supposed to move.","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"78d0662b-aa35-4830-a319-19cc43afc59c","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: bfc081404f94e47658e0b14f70b84139, type: 2}
+    - {fileID: 11400000, guid: f563c530237c144469c5b178bf14ecb4, type: 2}
