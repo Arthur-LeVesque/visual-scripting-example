@@ -52,7 +52,7 @@ In this tutorial we will setup the Character, Camera and Controls for a shoot-em
 
    [![img.png](Images/Tutorial01.CharacterCameraControls/img.png)](./Images/Tutorial01.CharacterCameraControls/img.png)
 
-6. Once Initialized, Add InputAction is added to the visual scripting node library in the ProjectSettings-VisualScripting->Type Options and regenerate nodes.
+6. Once Initialized, Add InputAction to the visual scripting node library in the ProjectSettings-VisualScripting->Type Options and regenerate nodes.
 
     Unity Manual: [Add or remove available nodes](https://docs.unity3d.com/Packages/com.unity.visualscripting@1.8/manual/vs-add-remove-node-library.html)
     
