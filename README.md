@@ -1,4 +1,4 @@
-# visual scripting tutorial
+# visual scripting example
 
 # Overview
 This repo serves as a tutorial on how to make a game from scratch with little to no knowledge using Unity Visual Scripting. The acompanying Unity Project alongside this repo can be used as reference but may contain more than what is developed within the tutorials.
