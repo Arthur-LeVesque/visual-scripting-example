@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="HUD" style="flex-grow: 1;">
+        <ui:VisualElement name="ScoreContainer" style="flex-grow: 1; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; position: absolute; width: 400px; height: 50px; align-self: center;">
+            <ui:VisualElement name="ScoreBackground" style="flex-grow: 1; -unity-text-outline-color: rgb(255, 255, 255); position: relative; align-self: center; background-color: rgb(0, 0, 0); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 19px; border-top-right-radius: 19px; border-bottom-right-radius: 19px; border-bottom-left-radius: 19px; width: 100%; height: 100%;">
+                <ui:Label tabindex="-1" text="10000000" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScoreText" style="align-self: center; align-items: auto; -unity-text-align: middle-center; justify-content: flex-start; background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); font-size: 32px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
