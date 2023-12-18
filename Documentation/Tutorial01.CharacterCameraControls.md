@@ -24,7 +24,7 @@ In this tutorial we will setup the Character, Camera and Controls for a shoot-em
 
 # Project Setup
 
-1. If you skipped Tutorial00, your project should be based off of the 2D Core Template.
+1. If you skipped Tutorial00, your project should be based off of the 2D Core Template. Recommended for Unity 2022.3.12 or greater.
 
    [![img_120.png](Images/Tutorial01.CharacterCameraControls/img_120.png)](./Images/Tutorial01.CharacterCameraControls/img_120.png)
 
@@ -52,7 +52,7 @@ In this tutorial we will setup the Character, Camera and Controls for a shoot-em
 
    [![img.png](Images/Tutorial01.CharacterCameraControls/img.png)](./Images/Tutorial01.CharacterCameraControls/img.png)
 
-6. Once Initialized, Add InputAction to the visual scripting node library in the ProjectSettings-VisualScripting->Type Options and regenerate nodes.
+6. Once Initialized, Add InputAction, PlayerInput, and InputActionAsset to the visual scripting node library in the ProjectSettings-VisualScripting->Type Options and regenerate nodes.
 
     Unity Manual: [Add or remove available nodes](https://docs.unity3d.com/Packages/com.unity.visualscripting@1.8/manual/vs-add-remove-node-library.html)
     
@@ -132,7 +132,7 @@ The [Event System](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/E
 
    [![img_20.png](Images/Tutorial01.CharacterCameraControls/img_20.png)](./Images/Tutorial01.CharacterCameraControls/img_20.png)
 
-6. Attach a [RigidBody2d](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) component to the `Player` GameObject to allow physics based movement and to prevent collisions from missing at high velocities. And set the values as follows.
+6. Attach a [RigidBody2d](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) component to the `Player` GameObject to allow physics based movement and to prevent collisions from missing at high velocities. Set the values as follows.
 
    [![img_70.png](Images/Tutorial01.CharacterCameraControls/img_70.png)](./Images/Tutorial01.CharacterCameraControls/img_70.png)
 
