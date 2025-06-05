@@ -5,5 +5,8 @@
                 <ui:Label tabindex="-1" text="10000000" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScoreText" style="align-self: center; align-items: auto; -unity-text-align: middle-center; justify-content: flex-start; background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); font-size: 32px;" />
             </ui:VisualElement>
         </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; position: relative; justify-content: flex-end;">
+            <ui:ProgressBar value="24.4" name="HealthBar" style="position: relative; justify-content: flex-end;" />
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

@@ -74,8 +74,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Visual Scripting auto-generated assets
-/Assets/Unity.VisualScripting.Generated/
-Assets/Unity.VisualScripting.Generated.meta
+/Assets/Unity.VisualScripting.Generated/VisualScripting.Flow
+Assets/Unity.VisualScripting.Generated/VisualScripting.Flow.meta
 
 # Mac DS_Store Files
 *.DS_Store
